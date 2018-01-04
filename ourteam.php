@@ -250,7 +250,8 @@ endwhile;
 					$args = array(
  					'post_type' => 'page',
  					'order' => 'asc',
-					'cat' => '95'
+					'cat' => '95',
+                                        'posts_per_page'=>-1
   					);
 					query_posts($args);
 					getpost();
@@ -263,7 +264,8 @@ endwhile;
 					$args = array(
  					'post_type' => 'page',
  					'order' => 'asc',
-					'cat' => '96'		//96
+					'cat' => '96',		//96
+					'posts_per_page'=>-1
   					);
 					query_posts($args);
 					getpost();
@@ -276,7 +278,8 @@ endwhile;
 					$args = array(
  					'post_type' => 'page',
  					'order' => 'asc',
-					'cat' => '97'		//99
+					'cat' => '97',		//99
+                                         'posts_per_page'=>-1
   					);
 					query_posts($args);
 					getpost();
@@ -289,7 +292,8 @@ endwhile;
 					$args = array(
  					'post_type' => 'page',
  					'order' => 'asc',
-					'cat' => '98'		//100
+					'cat' => '98',		//100
+                                        'posts_per_page'=>-1
   					);
 					query_posts($args);
 					getpost();
@@ -302,7 +306,8 @@ endwhile;
 					$args = array(
  					'post_type' => 'page',
  					'order' => 'asc',
-					'cat' => '99'			//101
+					'cat' => '99',			//101
+                                        'posts_per_page'=>-1
   					);
 					query_posts($args);
 					getpost();
